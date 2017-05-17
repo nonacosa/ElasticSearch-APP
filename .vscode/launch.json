@@ -1,11 +1,13 @@
 {
-  "version": "4.3.1",
-  "configurations": [ {
-      "name": "Attach",
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Main Process",
       "type": "node",
-      "address": "localhost",
-      "port": 5857,
-      "request": "attach"
+      "request": "launch",
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron",
+      "program": "${workspaceRoot}/main.js"
     }
   ]
 }
