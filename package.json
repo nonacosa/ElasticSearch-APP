@@ -18,5 +18,10 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "~1.6.2"
+  },
+  "dependencies": {
+    "node-pre-gyp": "^0.6.34",
+    "v8-debug": "^1.0.1",
+    "v8-profiler": "^5.7.0"
   }
 }
